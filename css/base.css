@@ -507,11 +507,21 @@ th {
 }
 
 
+.blog-container{
+  padding: 0 15%;
+  margin-top: 50px;
+}
 
 
 
+.copyright{
+  padding-block: 15px;
+  text-align: center;
+}
 
-
+.copyright a{
+  color: #000;
+}
 
 
 /* Media Queries */
@@ -522,7 +532,7 @@ th {
       }
 }
 
-@media only screen and (max-width: 610px) {
+@media only screen and (max-width: 1010px) {
   #mobile-button {
     display: flex;
     justify-content: center;
@@ -565,6 +575,9 @@ th {
   
   }
 
+  .dropdown{
+    display: flex;
+  }
   .footer_all {
     display: flex;
     flex-direction: column;

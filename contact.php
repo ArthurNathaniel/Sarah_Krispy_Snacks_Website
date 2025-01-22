@@ -4,7 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Get in touch with Sarah Krispy Snacks & Catering Services. We are here to answer your inquiries about our plantain chips, coated peanuts, and catering services. Reach out to us for orders, feedback, and event catering details.">
+    <meta name="keywords" content="Contact Sarah Krispy Snacks, Customer Support, Plantain Chips, Coated Peanuts, Event Catering, Contact Us, Snacks in Ghana">
+    <meta name="author" content="Sarah Krispy Snacks & Catering Services">
+    <meta name="robots" content="index, follow">
     <title>Contact Us | Sarah Krispy Snacks & Catering Services</title>
+
     <?php include 'cdn.php'; ?>
     <link rel="stylesheet" href="./css/base.css">
     <link rel="stylesheet" href="./css/index.css">
@@ -58,7 +63,7 @@
 
         </div>
 
-        
+
     </div>
     </section>
 

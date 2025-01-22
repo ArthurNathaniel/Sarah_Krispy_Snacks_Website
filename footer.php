@@ -19,7 +19,7 @@
       <a href="index.php">Home</a>
       <a href="about.php">About Us</a>
       <a href="blog.php">Blog</a>
-      <a href="">Where to buy</a>
+      <a href="where_to_buy.php">Where to buy</a>
     </div>
   </div>
 
@@ -28,10 +28,20 @@
     <div class="ft_tag">
       <a href="tel:+233  538 254 229">+233 (0) 538 254 229</a>
       <a href="tel: +233 209 272 892">+233 (0) 209 272 892</a>
-      <a href="mailto:info@sarah-krispy-snacks.com">info@sarah-krispy-snacks.com</a>
+      <a href="mailto:sarah.krispy.snacks@gmail.com">sarah.krispy.snacks@gmail.com</a>
       <a href="">Kumasi - Ghana</a>
     </div>
   </div>
 
 
 </div>
+
+<div class="copyright">
+        <p>
+            All Copyright &copy; Reserved
+            <script>
+                document.write(new Date().getFullYear())
+            </script>
+            | Powered by <a href="tel:+233541987478">Nathstack Tech</a>
+        </p>
+    </div>

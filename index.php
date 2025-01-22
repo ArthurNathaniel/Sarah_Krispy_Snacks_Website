@@ -53,7 +53,7 @@ $blogs = $stmt->fetchAll(PDO::FETCH_ASSOC);
                     <div class="product_details">
                         <h2>KRISPY PLANTAIN CHIP (RIPE) - 60g </h2>
                         <div class="read_more">
-                            <a href="">
+                            <a href="plantain_ripe.php">
                                 <button>READ MORE ...</button>
                             </a>
                         </div>
@@ -66,7 +66,7 @@ $blogs = $stmt->fetchAll(PDO::FETCH_ASSOC);
                     <div class="product_details">
                         <h2>KRISPY PLANTAIN CHIP (UNRIPE) - 60g </h2>
                         <div class="read_more">
-                            <a href="">
+                            <a href="plantain_unripe.php">
                                 <button>READ MORE ...</button>
                             </a>
                         </div>
@@ -79,7 +79,7 @@ $blogs = $stmt->fetchAll(PDO::FETCH_ASSOC);
                     <div class="product_details">
                         <h2>KRISPY PEANUT COATED - 60g </h2>
                         <div class="read_more">
-                            <a href="">
+                            <a href="coated_peanuts.php">
                                 <button>READ MORE ...</button>
                             </a>
                         </div>
@@ -92,7 +92,7 @@ $blogs = $stmt->fetchAll(PDO::FETCH_ASSOC);
                     <div class="product_details">
                         <h2>KRISPY PLANTAIN CHIP (RIPE) - 400g</h2>
                         <div class="read_more">
-                            <a href="">
+                            <a href="plantain_ripe.php">
                                 <button>READ MORE ...</button>
                             </a>
                         </div>
@@ -105,7 +105,7 @@ $blogs = $stmt->fetchAll(PDO::FETCH_ASSOC);
                     <div class="product_details">
                         <h2>KRISPY PLANTAIN CHIP (UNRIPE) - 400g</h2>
                         <div class="read_more">
-                            <a href="">
+                            <a href="plantain_unripe.php">
                                 <button>READ MORE ...</button>
                             </a>
                         </div>
@@ -118,7 +118,7 @@ $blogs = $stmt->fetchAll(PDO::FETCH_ASSOC);
                     <div class="product_details">
                         <h2>ALL OUR PRODUCTS</h2>
                         <div class="read_more">
-                            <a href="#">
+                            <a href="plantain_ripe.php">
                                 <button>READ MORE ...</button>
                             </a>
                         </div>

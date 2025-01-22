@@ -12,9 +12,14 @@ $shops = $stmt->fetchAll(PDO::FETCH_ASSOC);
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shop Details</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Find out where you can buy Sarah Krispy Snacks & Catering Services' delicious plantain chips, coated peanuts, and event catering services. Visit our shop location, view the map, and contact us for more information.">
+<meta name="keywords" content="Where to buy Sarah Krispy Snacks, Plantain Chips, Coated Peanuts, Snacks in Ghana, Event Catering, Shop Location, Contact Information">
+<meta name="author" content="Sarah Krispy Snacks & Catering Services">
+<meta name="robots" content="index, follow">
+<title>Where to Buy | Sarah Krispy Snacks & Catering Services</title>
+
     <?php include 'cdn.php'; ?>
     <link rel="stylesheet" href="./css/base.css">
     <link rel="stylesheet" href="./css/where.css">

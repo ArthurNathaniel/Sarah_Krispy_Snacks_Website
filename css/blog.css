@@ -64,6 +64,11 @@
     height: 250px !important;
     background-color: #fff;
 }
+
+.manage_shops{
+  padding: 0 10%;
+  margin-top: 50px;
+}
 @media only screen and (max-width: 1110px) {
   .blog-container {
     padding: 0 5%;

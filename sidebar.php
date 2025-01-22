@@ -1,14 +1,20 @@
 <div class="sidebar">
-    <div class="logo">
-    </div>
+    <div class="logo"></div>
     <div class="links">
     <div class="dashed"></div>
-    <a href="admin_dashboard.php"><i class="fas fa-tachometer-alt"></i> Dashboard </a>
+    <a href="admin_dashboard.php"><i class="fas fa-tachometer-alt"></i> Dashboard</a>
+
     <div class="dashed"></div>
-    <a href="add_blog.php"><i class="fas fa-tachometer-alt"></i> Add Blog </a>
+    <a href="add_blog.php"><i class="fas fa-plus-circle"></i> Add Blog</a>
     <div class="dashed"></div>
-    <a href="manage_blog.php"><i class="fas fa-tachometer-alt"></i> Manage  Blog </a>
+    <a href="manage_blog.php"><i class="fas fa-edit"></i> Manage Blog</a>
+    <div class="dashed"></div>
+    <a href="add_shop.php"><i class="fas fa-store"></i> Add Shop</a>
+    <div class="dashed"></div>
+    <a href="manage_shop.php"><i class="fas fa-cogs"></i> Manage Shop</a>
+    <div class="dashed"></div>
 </div>
+
 
     <a href="logout.php">
         <div class="logout">

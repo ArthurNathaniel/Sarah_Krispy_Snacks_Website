@@ -8,9 +8,9 @@
                 Products <span><i class="fa-solid fa-angle-down"></i></span>
             </a>
             <div class="dropdown-content">
-                <a href="#">Krispy Plantain Chips (Ripe)</a>
-                <a href="#">Krispy Plantain Chips (Unripe)</a>
-                <a href="#">Krispy Coated Peanut</a>
+            <a href="plantain_ripe.php">Krispy Plantain Chips (Ripe)</a>
+                <a href="plantain_unripe.php">Krispy Plantain Chips (Unripe)</a>
+                <a href="coated_peanuts.php">Krispy Coated Peanut</a>
             </div>
         </div>
         <a href="where_to_buy.php">Where to Buy</a>
@@ -29,9 +29,9 @@
                 Products <span><i class="fa-solid fa-angle-down"></i></span>
             </a>
             <div class="dropdown-content">
-                <a href="#">Krispy Plantain Chips (Ripe)</a>
-                <a href="#">Krispy Plantain Chips (Unripe)</a>
-                <a href="#">Krispy Coated Peanut</a>
+                <a href="plantain_ripe.php">Krispy Plantain Chips (Ripe)</a>
+                <a href="plantain_unripe.php">Krispy Plantain Chips (Unripe)</a>
+                <a href="coated_peanuts.php">Krispy Coated Peanut</a>
             </div>
         </div>
         <a href="where_to_buy.php">Where to Buy</a>
