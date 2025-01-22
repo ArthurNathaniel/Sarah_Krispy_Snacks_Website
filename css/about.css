@@ -1,0 +1,14 @@
+.about_all{
+    margin: 0 8%;
+    margin-top: 50px;
+}
+
+.video_all{
+    margin: 0 8%;
+    margin-top: 50px;
+    background-color: #fff; 
+}
+
+.video_title h1{
+    color: #000;
+}
