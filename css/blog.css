@@ -76,4 +76,9 @@
     display: grid;
     grid-template-columns: 1fr;
   }
+  .blog-container img{
+    height: auto;
+    width: 100%;
+    object-fit: contain;
+  }
 }

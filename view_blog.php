@@ -34,7 +34,7 @@ if (!$blog) {
     <title><?php echo htmlspecialchars($blog['title'], ENT_QUOTES); ?></title> <!-- SEO Title -->
     <?php include 'cdn.php'; ?>
     <link rel="stylesheet" href="./css/base.css">
-    <link rel="stylesheet" href="./css/view_blog.css">
+    <link rel="stylesheet" href="./css/blog.css">
     
 </head>
 <body>

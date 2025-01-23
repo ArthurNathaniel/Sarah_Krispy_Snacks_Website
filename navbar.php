@@ -19,7 +19,7 @@
     </div>
 
     <button id="mobile-button" aria-controls="mobile-links" aria-expanded="false">
-        <i class="fa-solid fa-bars-staggered"></i>
+        <i class="fa-solid fa-bars-staggered" style="color: #000 !important;"></i>
     </button>
     <div class="mobile_links" id="mobile-links" role="menu" aria-hidden="true">
     <a href="index.php">Home</a>

@@ -29,6 +29,19 @@ $shops = $stmt->fetchAll(PDO::FETCH_ASSOC);
             font-size: 18px;
             color: red;
         }
+.shop_details p{
+    display: flex;
+    gap: 10px;
+}
+
+.shop_details a{
+    display: flex;
+    gap: 10px; 
+    color: #000;
+}
+       .shop_details i{
+            color: #cc1827;
+        }
     </style>
 </head>
 
@@ -64,11 +77,11 @@ $shops = $stmt->fetchAll(PDO::FETCH_ASSOC);
                         <img src="uploads/<?php echo $shop['image']; ?>" alt="<?php echo $shop['shop_name']; ?>">
                     </div>
                     <div class="shop_details">
-                        <h1><?php echo $shop['shop_name']; ?></h1>
-                        <p><?php echo $shop['location']; ?></p>
-                        <p><?php echo $shop['contact_number']; ?></p>
+                        <h1><i class="fas fa-store"></i> <?php echo $shop['shop_name']; ?></h1>
+                        <p><i class="fas fa-map-marker-alt"></i> <?php echo $shop['location']; ?></p>
+                        <p><i class="fas fa-phone-alt"></i> <?php echo $shop['contact_number']; ?></p>
                         <p>
-                            <a href="<?php echo $shop['google_map_link']; ?>" target="_blank">View on Google Map</a>
+                            <a href="<?php echo $shop['google_map_link']; ?>" target="_blank"><i class="fas fa-map"></i> View on Google Map</a>
                         </p>
                     </div>
                 </div>

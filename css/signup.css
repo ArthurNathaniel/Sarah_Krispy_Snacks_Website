@@ -18,3 +18,10 @@
 .signup_box .logo{
     margin: 0 auto;
 }
+
+@media only screen and (max-width: 1110px) {
+    .signup_all{
+        padding: 0 5%;
+        margin-block: 50px;
+    }
+}

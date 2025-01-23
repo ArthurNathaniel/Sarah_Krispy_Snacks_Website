@@ -543,6 +543,11 @@ th {
     cursor: pointer;
   }
 
+  #mobile-button i{
+    color: #000 !important;
+    font-weight: 700;
+  }
+
   .nav_links {
     display: none;
   }
