@@ -57,7 +57,7 @@
                 <h3>EMAIL</h3>
                 <h1><i class="fa-solid fa-envelope"></i></h1>
                 <p>
-                    <a href="mailto:info@sarah-krispy-snacks.com">info@sarah-krispy-snacks.com</a>
+                <a href="mailto:sarah.krispy.snacks@gmail.com">sarah.krispy.snacks@gmail.com</a>
                 </p>
             </div>
 

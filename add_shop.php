@@ -74,7 +74,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
             <div class="forms">
                 <label for="google_map_link">Google Map Link:</label>
-                <input type="url" id="google_map_link" name="google_map_link" required>
+                <input type="url" id="google_map_link" name="google_map_link">
             </div>
 
             <div class="forms">

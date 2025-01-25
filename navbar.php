@@ -15,6 +15,7 @@
         </div>
         <a href="where_to_buy.php">Where to Buy</a>
         <a href="blog.php">Blog</a>
+        <a href="gallery.php">Gallery</a>
         <a href="contact.php">Contact Us</a>
     </div>
 

@@ -5,7 +5,9 @@ $stmt = $conn->prepare($query);
 $stmt->execute();
 $blogs = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
-
+$stmt = $conn->prepare("SELECT * FROM video_swipers");
+$stmt->execute();
+$video_swipers = $stmt->fetchAll(PDO::FETCH_ASSOC);
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -233,17 +235,30 @@ $blogs = $stmt->fetchAll(PDO::FETCH_ASSOC);
             <h1>ENDORSEMENT</h1>
         </div>
         <div class="video_grid">
+
+        <?php if (empty($video_swipers)): ?>
+        <p>No video swipers found.</p>
+    <?php else: ?>
+        <?php foreach ($video_swipers as $swiper): ?>
+            <div class="video_swiper">
+                <img src="<?= htmlspecialchars($swiper['image_url']) ?>" alt="<?= htmlspecialchars($swiper['alt_text']) ?>">
+                <button class="video_button" onclick="window.open('<?= htmlspecialchars($swiper['video_url']) ?>', '_blank')">
+                    ▶
+                </button>
+            </div>
+        <?php endforeach; ?>
+    <?php endif; ?>
             
-        <div class="video_swiper">
+        <!-- <div class="video_swiper">
                 <img src="./images/yaw_tog.webp" alt="Yaw Tog Endorses Sarah Krispy Plantain">
                 <button class="video_button"
                     onclick="window.open('https://www.tiktok.com/@sarah.krispy.snacks/photo/7448545058824948997?is_from_webapp=1&sender_device=pc', '_blank')">
                     ▶
                 </button>
-            </div>
+            </div> -->
 
 
-            <div class="video_swiper">
+            <!-- <div class="video_swiper">
                 <img src="./images/kwaku_darlington.jpeg" alt="Kwaku Darlington Endorses Sarah Krispy Plantain">
                 <button class="video_button"
                     onclick="window.open('https://www.tiktok.com/@sarah.krispy.snacks/photo/7448545058824948997?is_from_webapp=1&sender_device=pc', '_blank')">
@@ -283,7 +298,7 @@ $blogs = $stmt->fetchAll(PDO::FETCH_ASSOC);
                 onclick="window.open('https://www.tiktok.com/@sarah.krispy.snacks/photo/7448545831520619782?is_from_webapp=1&sender_device=pc')">
                 ▶
                 </button>
-            </div>
+            </div> -->
 
         </div>
     </div>
@@ -315,7 +330,7 @@ $blogs = $stmt->fetchAll(PDO::FETCH_ASSOC);
                 <h3>EMAIL</h3>
                 <h1><i class="fa-solid fa-envelope"></i></h1>
                 <p>
-                    <a href="mailto:info@sarah-krispy-snacks.com">info@sarah-krispy-snacks.com</a>
+                <a href="mailto:sarah.krispy.snacks@gmail.com">sarah.krispy.snacks@gmail.com</a>
                 </p>
             </div>
 

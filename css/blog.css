@@ -69,6 +69,11 @@
   padding: 0 10%;
   margin-top: 50px;
 }
+th{
+  background-color: #cc1827 !important;
+  text-align: left !important;
+}
+
 @media only screen and (max-width: 1110px) {
   .blog-container {
     padding: 0 5%;

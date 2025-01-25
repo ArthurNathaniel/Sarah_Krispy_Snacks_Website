@@ -13,6 +13,15 @@
     <div class="dashed"></div>
     <a href="manage_shop.php"><i class="fas fa-cogs"></i> Manage Shop</a>
     <div class="dashed"></div>
+    <a href="add_video_swiper.php"><i class="fas fa-plus-circle"></i> Add Endorsement</a>
+    <div class="dashed"></div>
+    <a href="manage_video_swipers.php"><i class="fas fa-tasks"></i> Manage Endorsement</a>
+    <div class="dashed"></div>
+    <a href="add_gallery.php"><i class="fas fa-plus-circle"></i> Add Gallery</a>
+<div class="dashed"></div>
+<a href="manage_gallery.php"><i class="fas fa-cogs"></i> Manage Gallery</a>
+<div class="dashed"></div>
+
 </div>
 
 
